@@ -8,21 +8,32 @@
    
 </head>
 <body>
-
-<form>
-    <h2>Sign Up</h2>
-    <label for="username">Username:</label>
-    <input type="text" id="username" name="username" required>
-
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
-
-    <label for="password">Password:</label>
-    <input type="password" id="password" name="password" required>
-
-    <button type="submit">Sign Up</button>
-    <img src="" alt="">
-</form>
-
+    <div class="main">
+<section class="detail">
+    <form>
+        <h1>Sign Up</h1>
+        <i class="fa fa-user"></i>
+        <input type="text" name="Name" placeholder="Your name"
+            required><br>
+        <i class="fa fa-envelope"></i>
+        <input type="email" name="Email" placeholder="Your Email"
+            required><br>
+        <i class="fa fa-lock"></i>
+        <input type="password" name="Password" id="password"
+            placeholder="Your password" required><br>
+        <i class="fa fa-key"></i>
+        <input type="password" placeholder="Repeat Your password"
+            id="confirm_password" required><br>
+        <input class="term" type="checkbox" name="terms" id="term"
+            required>
+        <label for="term">I agree all statement in <a href="#">Terms
+                of service</a></label><br>
+        <button type="submit">REGISTER</button>
+    </form>
+</section>
+<section>
+    <img src="https://www.shutterstock.com/shutterstock/photos/2284126663/display_1500/stock-photo-data-science-and-big-data-technology-scientist-computing-analysing-and-visualizing-complex-data-2284126663.jpg" alt="">
+</section>
+</div>
 </body>
 </html>

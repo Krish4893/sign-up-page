@@ -1,45 +1,56 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #e11c1c;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+    width: 1200px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 200px;
+    border: 2px solid rgb(220, 219, 219);
+    border-radius: 15px;
+    box-shadow: 2px 3px 5px rgb(153, 151, 151);
+}
+.detail {
+    float: left;
+    margin-top: 20px;
+    width: 600px;
 }
 
-form {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
-}
-
-label {
-    display: block;
-    margin-bottom: 8px;
+h1 {
+    margin-left: 200px;
 }
 
 input {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 16px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    width: 250px;
+    height: 25px;
+    margin: 15px;
+    padding: 3px;
+}
+
+i {
+    margin-left: 60px;
+    width: 15px;
+}
+
+.term {
+    margin-left: -60px;
+}
+
+label {
+    margin-left: -120px;
 }
 
 button {
-    background-color: #4caf50;
-    color: #fff;
-    padding: 10px;
+    background-color: rgb(24, 95, 238);
     border: none;
-    border-radius: 4px;
-    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 150px;
+    margin-top: 20px;
+    width: 110px;
+    height: 30px;
+    color: white;
 }
 
-button:hover {
-    background-color: #45a049;
+img {
+    width: 600px;
+    height: 500px;
+    border-radius: 0px 5px 5px 0px;
 }
